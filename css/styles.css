@@ -1,0 +1,67 @@
+*
+{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    height: 100%;
+}
+body{
+    height:100%;
+    background: url("/img/drumkit-img-2.jpg") no-repeat center;
+    background-size:cover;
+    
+    
+    
+}
+.heading
+{
+    color:#ddd;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.content
+{
+  display:flex;
+  height:500px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.btn
+{
+    margin-right: 3rem;
+}
+button
+{
+    height:100px;
+    width:100px;
+    font-size:3rem;
+    background-color: #000;
+    color:#ddd;
+    border:2px #fff solid;
+    cursor: pointer;
+    
+}
+.transistions
+{
+    /* to scale size of button from its orginal size */
+    transform:scale(1.1);
+    opacity:0.6;
+    box-shadow:0px 3px 4px 0px #333;
+    
+}
+footer{
+    background-color: #000;
+    color:#fff;
+    display: flex;
+    height:15%;
+    font-size:1.3rem;
+    justify-content: center;
+    align-items: center;
+
+}
